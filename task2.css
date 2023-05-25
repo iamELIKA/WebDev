@@ -104,7 +104,7 @@ line-height: 39px;
 color: #1E1E1E;
 }
 
-.horizontal_bars{
+.ranklist{
     display: grid;
     position:relative;
     top: 470px;
@@ -114,51 +114,64 @@ color: #1E1E1E;
     grid-gap:14px;
 }
 
-.b4th{
-    background: #D2D4F2;
-    height:100px;
-
+.rank{
+    background-color: #d2d4f2; ;
 }
 
-
-.b5th{
-    background: #D2D4F2;
-    height:100px;
-}
-
-.b6th{
-    background: #D2D4F2;
-    height:100px;
-}
-
-.b7th{
-    background: #D2D4F2;
-    height:100px;
-}
-.b8th{
-    background: #D2D4F2;
-    height:100px;
-}
 
 .hbar{
-position:relative;
-font-family: 'Inter';
-font-style: normal;
-font-weight: 400;
-font-size: 40px;
-line-height: 39px;
-color: #1E1E1E;
-left:44px;
+
+
+  width: 25px;
+  height: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  background-color: #d2d4f2;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  position: relative;
+  left: 30px;
+  top: 20px;
+  font-size: 25px;
+  position:relative;
+  top:55%;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 39px;
+  color: #1E1E1E;
+  left:44px;
+
 
 }
+.avatar-image {
+    width: 74.42px;
+    height: 74.42px;
+    border: 4px solid white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    background-color: #babefe;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    position: relative;
+    left: -5px;
+    
+    font-size: 40px;
+    background-size: cover;
+    background-position: center;
+  }
 
 .ellipsebar{
     position:relative;
     width: 74.42px;
+    top:20%;
     height: 74.42px;
     background: #BABEFF;
     left:130px;
-    bottom:182.5px;
     border-radius: 50%;
     line-height: 39px;
 }
@@ -175,25 +188,52 @@ left:44px;
 }
 
 .names{
-    position:relative;
+    width: 300px;
+  height: 30px;
+  border: 2px solid #d2d4f2;
+  display: flex;
+  justify-content: left;
+  align-items: flex-end;
+  background-color: #d2d4f2;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  position: relative;
+  left: 200px;
+  top:0px;
+  font-size:22px;
+
+    
     left:255px;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
     font-size: 40px;
     line-height: 39px;
-    bottom:245%;
+    
     color: #1E1E1E;
     
 
 }
 
 .score{
+    width: 100px;
+    height: 30px;
+    border: 2px solid #d2d4f2;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    background-color: #d2d4f2;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    position: relative;
+    left: 80%;
+    bottom: 30%;
+    font-size: 25px;
     position:relative;
     left: 1123px;
     width: 227px;
     height: 36px;
-    bottom:285%;
+    
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
@@ -247,12 +287,11 @@ color: #FFFFFF;
 }
 
 .hline{
-    position: absolute;
+position: absolute;
 width: 1440px;
 height: 0px;
 left: 0px;
 top: 85px;
-
 border: 2px solid #FFFFFF;
 transform: rotate(-0.12deg);
 }
@@ -403,3 +442,5 @@ transform: rotate(-0.12deg);
 
 
 
+
+  
